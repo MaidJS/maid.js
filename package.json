@@ -1,0 +1,27 @@
+{
+	"name": "maid-js",
+	"version": "1.0.0",
+	"description": "Small housekeeping utilities library",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+	  "build": "tsc",
+	  "test": "node dist/example/example.js"
+	},
+	"keywords": ["utilities", "housekeeping", "typescript"],
+	"author": "ly-nld",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/maidjs/maid-js.git"
+	},
+	"bugs": {
+		"url": "https://github.com/maidjs/maid-js/issues"
+	},
+	"dependencies": {
+		"@types/node": "^20.10.6"
+	},
+	"devDependencies": {
+		"typescript": "^4.5.4"
+	}
+}
