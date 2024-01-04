@@ -1,4 +1,8 @@
-node_modules
-.vscode
-.run
-.idea
+# Node.js
+node_modules/
+.vscode/
+.idea/
+dist
+dist/*
+.DS_Store
+Thumbs.db
